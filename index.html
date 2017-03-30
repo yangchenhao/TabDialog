@@ -1,0 +1,34 @@
+<!doctype html>
+<html>
+<head>
+	<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+	<script type="text/javascript" src="js/jquery-3.2.0.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="css/normalize.css">
+  	<script type="text/javascript" src="js/jquery-ui.js"></script>
+  	<link rel="stylesheet" type="text/css" href="css/jquery-ui.css">
+  	<style type="text/css">
+    	.ui-tabs-nav li.ui-tabs-close-button {
+		    float: right;
+		    margin-top: 3px;
+		}
+  	</style>
+  	<script type="text/javascript" src="js/TabDialog.js"></script>
+
+  	<title>Tabbed dialog by elektronikLexikon</title>
+	<script type="text/javascript">
+		$(function(){
+			var tabD = new TabDialog();
+			tabD.init();
+			tabD.add("aaa", "https://www.github.com");
+			tabD.add("bbb", "https://www.facebook.com");
+			tabD.close();
+			tabD.popup();
+		});
+		
+	</script>
+</head>
+
+<body>
+
+</body>
+</html>
