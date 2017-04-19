@@ -1,5 +1,10 @@
-使用：add popup close 方法如index文件所示
+How to use：
+add: Using add function to create tab box.
+popup: Using popup function to create popup button.
+close: using close function to create close button on each tab.
 
-目前存在问题：连接外部网站会有ajax的权限问题 因此在测试时不知道能否在调用内部网站时表现一致
-还有一些小细节比如ui方面可以完善
-popup按钮添加在网页中似乎比较麻烦因为使用ajax会被刷新掉，因此添加在关闭按钮处
+A Problem: I use XMLHttpRequest and try to redirect other website as demo. Please open 'Access-Control-Allow-Origin' to make sure it can be shown corrrectly on Chrome.
+
+The Popup button will be refreshed if added on the website of the tab. So I add it on beside from the close button.
+
+Some screenshots attached as demo.
